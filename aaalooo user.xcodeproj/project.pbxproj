@@ -13,6 +13,7 @@
 		3468AD6F23D43B1A00F26FEF /* aaalooo_user.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3468AD6D23D43B1A00F26FEF /* aaalooo_user.xcdatamodeld */; };
 		3468AD7123D43B1E00F26FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3468AD7023D43B1E00F26FEF /* Assets.xcassets */; };
 		3468AD7423D43B1E00F26FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3468AD7223D43B1E00F26FEF /* LaunchScreen.storyboard */; };
+		3468AD7C23D4488000F26FEF /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3468AD7B23D4487F00F26FEF /* Main2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3468AD7023D43B1E00F26FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3468AD7323D43B1E00F26FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3468AD7523D43B1E00F26FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3468AD7B23D4487F00F26FEF /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main2.storyboard; path = ../../../../../../Users/saim/Desktop/Main2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				3468AD6623D43B1A00F26FEF /* AppDelegate.swift */,
 				3468AD6823D43B1A00F26FEF /* ViewController.swift */,
+				3468AD7B23D4487F00F26FEF /* Main2.storyboard */,
 				3468AD6A23D43B1A00F26FEF /* Main.storyboard */,
 				3468AD7023D43B1E00F26FEF /* Assets.xcassets */,
 				3468AD7223D43B1E00F26FEF /* LaunchScreen.storyboard */,
@@ -127,6 +130,7 @@
 			files = (
 				3468AD7423D43B1E00F26FEF /* LaunchScreen.storyboard in Resources */,
 				3468AD7123D43B1E00F26FEF /* Assets.xcassets in Resources */,
+				3468AD7C23D4488000F26FEF /* Main2.storyboard in Resources */,
 				3468AD6C23D43B1A00F26FEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
