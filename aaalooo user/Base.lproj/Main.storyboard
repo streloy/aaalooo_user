@@ -201,15 +201,30 @@
                                     <constraint firstAttribute="bottom" secondItem="Grj-6E-0O4" secondAttribute="bottom" constant="8" id="viz-5m-ayg"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PHARMECY NEARBY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYW-yE-RiF">
+                                <rect key="frame" x="16.000000000000007" y="274" width="121.66666666666669" height="14.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VIEW ALL" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gct-FJ-nll">
+                                <rect key="frame" x="294" y="274" width="65" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="pgE-MS-1H4" firstAttribute="leading" secondItem="hCG-UW-6Os" secondAttribute="leading" constant="16" id="13N-RS-Xdb"/>
                             <constraint firstItem="pw8-mZ-1BQ" firstAttribute="leading" secondItem="hCG-UW-6Os" secondAttribute="leading" constant="16" id="6Dp-zo-WHU"/>
                             <constraint firstItem="pw8-mZ-1BQ" firstAttribute="top" secondItem="YQh-YI-lwS" secondAttribute="bottom" constant="8" id="6mW-lm-8CD"/>
+                            <constraint firstItem="mYW-yE-RiF" firstAttribute="leading" secondItem="hCG-UW-6Os" secondAttribute="leading" constant="16" id="ALZ-So-9xb"/>
                             <constraint firstItem="pgE-MS-1H4" firstAttribute="top" secondItem="pw8-mZ-1BQ" secondAttribute="bottom" constant="8" id="Bbq-V3-iwl"/>
                             <constraint firstItem="hCG-UW-6Os" firstAttribute="trailing" secondItem="pgE-MS-1H4" secondAttribute="trailing" constant="16" id="N4M-KK-7dw"/>
                             <constraint firstItem="YQh-YI-lwS" firstAttribute="top" secondItem="hCG-UW-6Os" secondAttribute="top" constant="16" id="Ncs-V7-ZVb"/>
+                            <constraint firstItem="mYW-yE-RiF" firstAttribute="top" secondItem="pgE-MS-1H4" secondAttribute="bottom" constant="8" id="Otq-wV-2bR"/>
                             <constraint firstItem="YQh-YI-lwS" firstAttribute="leading" secondItem="hCG-UW-6Os" secondAttribute="leading" constant="16" id="Ygc-hr-pSi"/>
                             <constraint firstItem="hCG-UW-6Os" firstAttribute="trailing" secondItem="YQh-YI-lwS" secondAttribute="trailing" constant="16" id="sdg-Ab-mLr"/>
                             <constraint firstItem="hCG-UW-6Os" firstAttribute="trailing" secondItem="pw8-mZ-1BQ" secondAttribute="trailing" constant="16" id="vBP-Fq-hqy"/>
